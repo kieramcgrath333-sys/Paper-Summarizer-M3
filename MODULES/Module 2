@@ -1,0 +1,16 @@
+Objective: Generate dual-format summaries per section.
+For each section:
+Expert Summary
+Max 150 words
+Use formal academic tone
+Preserve technical terminology
+Assume audience is familiar with deep learning and NLP
+Lay Summary
+Max 150 words
+Use accessible language
+Explain concepts with analogies or simplified phrasing
+Assume audience has no technical background
+Validate:
+Word count constraint
+No hallucinated content
+Section order preserved
