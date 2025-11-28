@@ -1,0 +1,12 @@
+Objective: Enforce integrity and safety constraints.
+Missing/Empty Sections
+Flag and report with section name and position
+Short Sections (<50 words)
+Flag and suggest fallback strategy (e.g., merge with adjacent section)
+Hallucination Mitigation
+Cross-check summaries against original section text
+Disallow speculative or inferred claims
+Long-Paper Chunking
+Apply PS2 context-window strategies:
+Chunk sections exceeding context limits
+Maintain semantic continuity across chunks
