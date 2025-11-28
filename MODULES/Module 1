@@ -1,0 +1,3 @@
+Normalize paper sections: Abstract, Introduction, Background, Model Architecture, Attention Mechanism, Positional Encoding, Training, Results, Related Work, Conclusion, References.
+Detect missing or short sections (<50 words).
+If missing/empty → produce warning message.
