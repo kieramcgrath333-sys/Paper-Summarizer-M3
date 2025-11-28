@@ -1,3 +1,8 @@
-Normalize paper sections: Abstract, Introduction, Background, Model Architecture, Attention Mechanism, Positional Encoding, Training, Results, Related Work, Conclusion, References.
-Detect missing or short sections (<50 words).
-If missing/empty → produce warning message.
+Objective: Normalize input structure and validate completeness.
+Parse the full PDF and extract section headings in original order.
+Normalize section titles (e.g., remove numbering inconsistencies, unify casing).
+Detect and flag:
+Missing sections
+Sections with fewer than 50 words
+Sections with empty or unreadable content
+If any issues are found, produce a warning message specifying the section(s) affected.
